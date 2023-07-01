@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nbt-viewer",
+  "version": "${version}",
+  "name": "NBT Viewer",
+  "description": "Allows you to view NBT data in item tooltips.",
+  "authors": [
+    "SirBlobman"
+  ],
+  "contact": {
+    "website": "https://www.sirblobman.xyz/",
+    "repo": "https://github.com/SirBlobman/NBT-Viewer"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/nbt-viewer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.github.sirblobman.mod.fabric.nbtviewer.NbtViewerMod"
+    ]
+  },
+  "mixins": [
+    "nbt-viewer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
