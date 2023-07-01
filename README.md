@@ -1,6 +1,6 @@
 # NBT Viewer Mod
 
-A mod that allows you to view NBT data in item tooltips.
+A client-side mod that allows you to view NBT data in item tooltips.
 
 ### Requirements
 
